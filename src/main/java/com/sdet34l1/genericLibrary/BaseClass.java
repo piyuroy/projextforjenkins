@@ -150,7 +150,7 @@ public class BaseClass {
 	public void afterSuiteTest() throws IOException {
 		//close the data base connection code
 		//close the excel sheet code
-		excelLibrary = new ExcelLibrary(); 
+		//excelLibrary = new ExcelLibrary(); 
 		excelLibrary.closeExcel();
 		System.out.println("after suit: close excel statements");
 	}

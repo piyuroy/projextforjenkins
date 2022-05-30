@@ -24,6 +24,5 @@ public class CreateCampaignTest extends BaseClass {
 		createNewCampaignPage.enterCampaignName(campaignName);
 		createNewCampaignPage.save();
 						
-		javaLibrary.assertionThroughIfCondition(campaignInformationPage.getCampaignNameText(), campaignName, "campaign");
 		}
 }
