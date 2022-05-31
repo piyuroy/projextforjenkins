@@ -72,13 +72,13 @@ public class BaseClass {
 		String url = fileLibrary.getDataFromPropertyFile("url");
 		username= fileLibrary.getDataFromPropertyFile("username");
 		password= fileLibrary.getDataFromPropertyFile("password");
-	  String browser = fileLibrary.getDataFromPropertyFile("browser");
+	//  String browser = fileLibrary.getDataFromPropertyFile("browser");
 
 //		username=System.getProperty("USERNAME");
 //		password=System.getProperty("PASSWORD");
 //		url=System.getProperty("URL");
-//		browser=System.getProperty("BROWSER");
-
+	browser=System.getProperty("BROWSER");
+		System.out.println(browser);
 		String timeout = fileLibrary.getDataFromPropertyFile("timeout");
 
 		randomNumber= javaLibrary.getRandomNumber(1000);
